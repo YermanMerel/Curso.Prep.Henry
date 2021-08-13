@@ -244,8 +244,8 @@ function continueStatement(numero) {
   let suma = numero;
   for ( let i= 0 ; i < 9; i++){
     suma = suma + 2;
-    if (suma === i){
-      break;
+    if (i === 5){
+      continue;
     }
     else {
       number.push(suma);
